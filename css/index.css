@@ -1,86 +1,144 @@
+
 body {
-    padding: 4vh 12%;
-    font-family: 'Rubik', sans-serif;
+   padding: 4vh 5% 0;
+   font-family: "Rubik", sans-serif;
 }
 
 h2 {
-    font-size: 1.7vw;
+   font-size: 2vw;
 }
 
 p {
-    font-size: 1.3vw;
+   font-size: 1.65vw;
 }
 
 nav {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom: 3vh;
+}
+
+nav .links {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   width: 80%;
+}
+
+nav a.link {
+   font-size: 1.2vw;
+   color: black;
+   text-decoration: none;
+}
+
+nav a.link:hover {
+   color: rgb(158, 0, 0);
+   transition: 0.7s;
+}
+
+.logo {
+   width: 14vw;
+   position: relative;
+   bottom: 0.2vh;
+}
+
+img.banner {
+   width: 100%;
+}
+
+section {
+   padding: 0 2% 0;
+   margin: 0;`
+}
+
+.top-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.top-content .text-container {
+   width: 47%;
+}
+
+.middle-content {
+    padding-bottom: 3vh;
+}
+
+.middle-content .boxes {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: space-between;
+   width: 100%;
+   height: 29vw;
+}
+
+div.box {
+   display: flex;
+   width: 13vw;
+   height: 12.5vw;
+   background: red;
+   margin: 0 1.5vw;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 1.5vw;
+}
+
+
+.box#one {
+   background: teal;
+}
+
+.box#two {
+   background: gold;
+}
+
+.box#three {
+   background: cadetblue;
+}
+
+.box#four {
+   background: coral;
+}
+
+.box#five {
+   background: cherry;
+}
+
+.box#six {
+   background: green;
+}
+
+.box#seven {
+   background: rgb(182, 0, 182);
+}
+
+.box#eight {
+   background: violet;
+}
+
+.box#nine {
+   background: rgb(61, 0, 97);
+}
+
+.box#ten {
+   background: rgb(0, 140, 255);
+}
+
+.bottom-content {
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
-    width: 100%;
-    margin-bottom: 3vh;
- }
+}
 
- nav .links {
-     display: flex;
-     justify-content: space-around;
-     align-items: flex-end;
-     width: 80%;
- }
- 
- nav a.link {
-    font-size: 1.2vw;
-    color: black;
-    text-decoration: none;
- }
- 
- nav a.link:hover {
-    color: rgb(158, 0, 0);
-    transition: 0.7s;
- }
+.bottom-content .text-container {
+    width: 30%;
+}
 
- .logo {
-    width: 14vw;
-    position: relative;
-    bottom: 0.2vh;
- }
-
- img.banner {
-     width: 100%;
- }
-
- section {
-     padding: 0 2%;
- }
-
- .top-content {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
- }
-
-
- .top-content .text-container {
-     width: 47%;
- }
-
- .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    width: 100%;
-    height: 28vw;
- }
-
- div.box {
-     display: flex;
-     width: 10vw;
-     height: 10vw;
-     background: red;
-     margin: 0 1.5vw;
-     align-items:  center;
-     justify-content: center;
- }
-
- div.box.one {
-     background: teal;
- }
+footer {
+    background: black;
+    margin: 0;
+}
