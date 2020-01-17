@@ -1,6 +1,86 @@
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+body {
+    padding: 4vh 12%;
     font-family: 'Rubik', sans-serif;
 }
 
+h2 {
+    font-size: 1.7vw;
+}
+
+p {
+    font-size: 1.3vw;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3vh;
+ }
+
+ nav .links {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-end;
+     width: 80%;
+ }
+ 
+ nav a.link {
+    font-size: 1.2vw;
+    color: black;
+    text-decoration: none;
+ }
+ 
+ nav a.link:hover {
+    color: rgb(158, 0, 0);
+    transition: 0.7s;
+ }
+
+ .logo {
+    width: 14vw;
+    position: relative;
+    bottom: 0.2vh;
+ }
+
+ img.banner {
+     width: 100%;
+ }
+
+ section {
+     padding: 0 2%;
+ }
+
+ .top-content {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+
+ .top-content .text-container {
+     width: 47%;
+ }
+
+ .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+    height: 28vw;
+ }
+
+ div.box {
+     display: flex;
+     width: 10vw;
+     height: 10vw;
+     background: red;
+     margin: 0 1.5vw;
+     align-items:  center;
+     justify-content: center;
+ }
+
+ div.box.one {
+     background: teal;
+ }
