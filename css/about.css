@@ -1,10 +1,21 @@
+section#about-summary {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+section#about-summary h2 {
+    margin: 0 0 0.8vh;
+}
+
+section#about-summary p {
+    margin: 0;
+}
+
 section#about-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    height: 100vw;
-    padding-top: 2vh;
+    margin-top: -3vh;
 }
 
 section#about-images .about-box {
@@ -12,6 +23,7 @@ section#about-images .about-box {
     width: 49%;
     border-bottom: 2px dashed black;
     padding-bottom: 2vh;
+    margin-top: 8vh;
 }
 
 section#about-images .about-box img {
@@ -20,6 +32,5 @@ section#about-images .about-box img {
 }
 
 section#work-together {
-    margin-bottom: 3vh;
+    margin: 5vh 0 5vh;
 }
-
