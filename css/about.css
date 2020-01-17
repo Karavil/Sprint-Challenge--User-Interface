@@ -1,0 +1,25 @@
+section#about-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vw;
+    padding-top: 2vh;
+}
+
+section#about-images .about-box {
+    /* display: flex; */
+    width: 49%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2vh;
+}
+
+section#about-images .about-box img {
+    /* display: flex; */
+    width: 100%;
+}
+
+section#work-together {
+    margin-bottom: 3vh;
+}
+

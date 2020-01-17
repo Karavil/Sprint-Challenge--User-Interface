@@ -1,4 +1,3 @@
-
 body {
    padding: 4vh 5% 0;
    font-family: "Rubik", sans-serif;
@@ -14,8 +13,26 @@ p {
 }
 
 hr {
-    border-top: dashed 2px;
+   border-top: dashed 2px;
 }
+
+.button {
+   color: black;
+   width: 10vw;
+   padding: 0.5vw 2vw;
+   border-radius: 10px;
+   border: 2px solid black;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.button:hover {
+   cursor: pointer;
+   background: black;
+   color: white;
+   transition: 0.5s;
+}
+
 nav {
    display: flex;
    align-items: flex-end;
@@ -25,7 +42,7 @@ nav {
 }
 
 nav a {
-    font-size: 1.5vw;
+   font-size: 1.5vw;
 }
 nav .links {
    display: flex;
@@ -70,7 +87,7 @@ section {
 }
 
 .middle-content {
-    padding-bottom: 3vh;
+   padding-bottom: 3vh;
 }
 
 .middle-content .boxes {
@@ -93,7 +110,6 @@ div.box {
    color: white;
    font-size: 1.5vw;
 }
-
 
 .box#one {
    background: teal;
@@ -136,33 +152,33 @@ div.box {
 }
 
 .bottom-content {
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 }
 
 .bottom-content .text-container {
-    width: 30%;
+   width: 30%;
 }
 
 footer {
-    display: flex;
-    background: black;
-    height: 7vh;
-    display: flex;
-    align-items: center;
-    margin-top: 1vh;
+   display: flex;
+   background: black;
+   height: 7vh;
+   display: flex;
+   align-items: center;
+   margin-top: 1vh;
 }
 
 footer nav {
-    margin: 0;
-    width: 60%;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
+   margin: 0;
+   width: 60%;
+   align-items: center;
+   justify-content: space-around;
+   height: 100%;
 }
 
 footer nav a {
-    text-decoration: none;
-    color: white;
-    position: relative;
+   text-decoration: none;
+   color: white;
+   position: relative;
 }
