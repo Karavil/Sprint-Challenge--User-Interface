@@ -128,27 +128,27 @@ div.box {
 }
 
 .box#five {
-   background: cherry;
+   background: crimson;
 }
 
 .box#six {
-   background: green;
+   background: forestgreen;
 }
 
 .box#seven {
-   background: rgb(182, 0, 182);
+   background: darkorchid;
 }
 
 .box#eight {
-   background: violet;
+   background: hotpink;
 }
 
 .box#nine {
-   background: rgb(61, 0, 97);
+   background: indigo;
 }
 
 .box#ten {
-   background: rgb(0, 140, 255);
+   background: dodgerblue;
 }
 
 .bottom-content {
