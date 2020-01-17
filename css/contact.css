@@ -33,6 +33,7 @@ form {
     flex-direction: column;
     width: 50%;
     background: rgb(0, 0, 0);
+    border-radius: 10px;
     color: white;
     height: 45vw;
     justify-content: center;
@@ -42,28 +43,28 @@ form {
 section#contact-form form .input-section {
     display: flex;
     flex-direction: column;
-    margin: 1vh 0;
+    margin: 1vw 0;
     width: 70%;
     font-size: 2vw;
 }
 
 section#contact-form form .input-section input{
     border-radius: 8px;
-    height: 4vh;
+    height: 4vw;
     font-size: 1.5vw;
     border: 2px rgb(129, 0, 0) solid;
 }
 
 section#contact-form form .input-section select#country {
     width: 5vw;
-    height: 2vh;
+    height: 2vw;
     background: white;
     margin-bottom: 0.5vh;
     border: 2px rgb(129, 0, 0) solid;
 }
 
 section#contact-form .button {
-    margin-top: 2vh;
+    margin-top: 2vw;
     background: white;
     width: 30%;
     text-align: center;
@@ -76,6 +77,6 @@ section#contact-form .button:hover {
 }
 
 hr#push-footer {
-    margin-bottom: 3vh;
+    margin-bottom: 8vh;
 }
 
