@@ -1,0 +1,36 @@
+section#about-summary {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+section#about-summary h2 {
+    margin: 0 0 0.8vh;
+}
+
+section#about-summary p {
+    margin: 0;
+}
+
+section#about-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -3vh;
+}
+
+section#about-images .about-box {
+    /* display: flex; */
+    width: 49%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2vh;
+    margin-top: 8vh;
+}
+
+section#about-images .about-box img {
+    /* display: flex; */
+    width: 100%;
+}
+
+section#work-together {
+    margin: 5vh 0 5vh;
+}

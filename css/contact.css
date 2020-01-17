@@ -1,0 +1,82 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+section#contact-summary {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+section#contact-summary h2 {
+    margin: 0 0 0.8vh;
+}
+
+section#contact-summary p {
+    margin: 0;
+}
+
+section#contact-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vw;
+}
+
+section#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    height: 45vw;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contact-form form .input-section {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw 0;
+    width: 70%;
+    font-size: 2vw;
+}
+
+section#contact-form form .input-section input{
+    border-radius: 8px;
+    height: 4vw;
+    font-size: 1.5vw;
+    border: 2px rgb(129, 0, 0) solid;
+}
+
+section#contact-form form .input-section select#country {
+    width: 5vw;
+    height: 2vw;
+    background: white;
+    margin-bottom: 0.5vh;
+    border: 2px rgb(129, 0, 0) solid;
+}
+
+section#contact-form .button {
+    margin-top: 2vw;
+    background: white;
+    width: 30%;
+    text-align: center;
+    border: 2px rgb(129, 0, 0) solid;
+}
+
+section#contact-form .button:hover {
+    color: rgb(252, 252, 252);
+    background: rgb(129, 0, 0);
+}
+
+hr#push-footer {
+    margin-bottom: 8vh;
+}
+
